@@ -1,0 +1,15 @@
+{
+  "name": "ghpages",
+  "version": "1.0.0",
+  "description": "Github pages deployment",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://txWebDev.github.io/gitpages",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
